@@ -28,6 +28,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@types/node", "npm:20.2.5"],\
             ["@types/react", "npm:18.2.8"],\
             ["@types/react-dom", "npm:18.2.4"],\
             ["@typescript-eslint/eslint-plugin", "virtual:06d053d11d716e9f4789f598264da52b6d3917d59765343654f848ee7939c8017388ec39c1e8bff8e9fb5b243e0764b4bd4e9717aa1714101b74111fb5d9eeaf#npm:5.59.8"],\
@@ -794,6 +795,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-json-schema-npm-7.0.12-f05cfc0e99-00239e9723.zip/node_modules/@types/json-schema/",\
           "packageDependencies": [\
             ["@types/json-schema", "npm:7.0.12"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/node", [\
+        ["npm:20.2.5", {\
+          "packageLocation": "./.yarn/cache/@types-node-npm-20.2.5-0014d2d9ce-38ce7c7e9d.zip/node_modules/@types/node/",\
+          "packageDependencies": [\
+            ["@types/node", "npm:20.2.5"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1917,6 +1927,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["form-table-handling", "workspace:."],\
+            ["@types/node", "npm:20.2.5"],\
             ["@types/react", "npm:18.2.8"],\
             ["@types/react-dom", "npm:18.2.4"],\
             ["@typescript-eslint/eslint-plugin", "virtual:06d053d11d716e9f4789f598264da52b6d3917d59765343654f848ee7939c8017388ec39c1e8bff8e9fb5b243e0764b4bd4e9717aa1714101b74111fb5d9eeaf#npm:5.59.8"],\
@@ -3382,7 +3393,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["vite", "virtual:06d053d11d716e9f4789f598264da52b6d3917d59765343654f848ee7939c8017388ec39c1e8bff8e9fb5b243e0764b4bd4e9717aa1714101b74111fb5d9eeaf#npm:4.3.9"],\
             ["@types/less", null],\
-            ["@types/node", null],\
+            ["@types/node", "npm:20.2.5"],\
             ["@types/sass", null],\
             ["@types/stylus", null],\
             ["@types/sugarss", null],\
